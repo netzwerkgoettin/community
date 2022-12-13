@@ -1,7 +1,7 @@
 ---
 title: "Jitsi-Metriken – mit Telegraf, InfluxDB und Grafana"
 vgwort_public: ""
-date: 2022-12-14 08:07 +0200
+date: 2022-12-13 08:07 +0200
 categories:
   - "online"
 tags:
