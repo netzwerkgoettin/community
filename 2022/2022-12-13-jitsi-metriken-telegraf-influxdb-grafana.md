@@ -8,7 +8,7 @@ tags:
   - "community"
   - "tabsvongesternnacht"
   - "communications"
-description: "Eigentlich genügt es zu wissen, dass es die JVB-Metriken gibt und wie man an herankommt."
+description: "Eigentlich genügt es zu wissen, dass es die JVB-Metriken gibt und wie man an sie herankommt."
 image: "/assets/img/community/2022/12/Jitsi-Telegraf-InfluxDB-Grafana.png"
 hide_description: false
 hide_image: true
@@ -28,7 +28,7 @@ Der funktionierte gut, wurde jedoch nicht weiterentwickelt.
 Und irgendwann liefen Exporter und Jitsi so weit auseinander, dass ich diese Kombination nicht mehr zum Funktionieren bewegen konnte.
 
 ## JVB stellt Metriken bereit
-`jitsi/jvb` stellt so einiges an Information zur Verfügung. 
+`jitsi/jvb` stellt [so einiges an Information zur Verfügung](https://github.com/jitsi/jitsi-videobridge/blob/master/doc/statistics.md). 
 Nach wie vor betreibe ich die Maschinerie innerhalb von Docker-Containern.
 Im `.env` meines Docker-Setups habe ich `COLIBRI_REST_ENABLED=True` definiert.
 
