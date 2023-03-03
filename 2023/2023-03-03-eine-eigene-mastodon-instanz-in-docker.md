@@ -205,10 +205,10 @@ Die Installation ist im Grunde genommen mehr Fleißarbeit als sonstwas.
 Es sie die vielen Kleinigkeiten links und rechts, die das Ganze aufblasen und zeitintensiv werden lassen (können): die automatische Erneuerung des Zertifikats, beispielsweise, die Backups, das Monitoring.
 Vieles davon erledige ich inzwischen über [Ansible](https://www.ansible.com/)-Playbooks, aber auch die wollen erstellt und gepflegt werden – was den Aufwand im Grunde genommen nur um eine Ebene verlagert 😎
 
-Das Setup läuft stabil, nur selten erhalte ich in [Metatext](https://github.com/metabolist/metatext)[^1] überraschende *„too many requests“* Meldungen – welche dann aber auch direkt wieder verschwinden. Die RAM-Auslastung des Servers liegt konstant bei etwa 11%, wohingegen die CPUs sich eher langweilen.
+Das Setup läuft stabil, nur selten erhalte ich in [Metatext](https://github.com/metabolist/metatext)[^2] überraschende *„too many requests“* Meldungen – welche dann aber auch direkt wieder verschwinden. Die RAM-Auslastung des Servers liegt konstant bei etwa 11%, wohingegen die CPUs sich eher langweilen.
 
 Dem Update-Prozess widme ich dann demnächst noch einen eigenen kleinen Artikel.
 Und vielleicht habe ich euch ja jetzt Lust drauf gemacht, es selbst mal zu versuchen – wir ihr seht, es ist keine Raketenwissenschaft.
 
 [^1]: *„Wichtig: Rumspielen nicht mit einer wertvollen Domain. Geht das Rumspielen schief, ist die Domain im Fediverse verbrannt.“* – Dank an [Klampfradler](https://konfigurationsmanufaktur.de/@Natureshadow@floss.social)
-[^1]: Das ich nach wie vor verwende – ich muss mich dringend um eine Alternative kümmern, da die Weiterentwicklung eingestellt ist!
+[^2]: Das ich nach wie vor verwende – ich muss mich dringend um eine Alternative kümmern, da die Weiterentwicklung eingestellt ist!
