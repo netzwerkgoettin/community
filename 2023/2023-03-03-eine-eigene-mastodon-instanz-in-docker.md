@@ -25,7 +25,7 @@ Und ich hatte versprochen: wenn ich ein paar Erfahrungen damit gesammelt habe, d
 Nun, ein Vierteljahr ist seither ins Land gezogen, zwei Upgrades habe ich der Instanz derweil verpasst – ein guter Moment, um euch zumindest eine grobe Idee davon zu geben, wie das Ganze hier läuft.
 
 ## Ein paar Gedanken vorweg
-Ihr braucht eine Domain, und zwar eine möglichst hübsche.
+Ihr braucht eine Domain, und zwar eine möglichst hübsche.[^1]
 Ich persönlich wollte keine mit `.social`, einfach weil ich die dämlich finde.
 Stattdessen ist es ein buchstabentechnisch quantitatives Monster geworden, das zu lang ist für jedwede gefällige Darstellung im Webinterface.
 
@@ -210,4 +210,5 @@ Das Setup läuft stabil, nur selten erhalte ich in [Metatext](https://github.com
 Dem Update-Prozess widme ich dann demnächst noch einen eigenen kleinen Artikel.
 Und vielleicht habe ich euch ja jetzt Lust drauf gemacht, es selbst mal zu versuchen – wir ihr seht, es ist keine Raketenwissenschaft.
 
+[^1]: *„Wichtig: Rumspielen nicht mit einer wertvollen Domain. Geht das Rumspielen schief, ist die Domain im Fediverse verbrannt.“* – Dank an [Klampfradler](https://konfigurationsmanufaktur.de/@Natureshadow@floss.social)
 [^1]: Das ich nach wie vor verwende – ich muss mich dringend um eine Alternative kümmern, da die Weiterentwicklung eingestellt ist!
