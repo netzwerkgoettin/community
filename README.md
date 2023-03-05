@@ -10,3 +10,6 @@ Der Vollständigkeit halber noch ein paar Anmerkungen:
 * ich ringe dabei heftig mit Git, aber das relativiert sich hoffentlich über die Zeit; nicht wundern, wenn dabei bisweilen krudes Zeug passiert
 
 Das wird sich alles zurecht ruckeln müssen.
+
+## Dank an Beitragende 💚
+* [@cboltz](https://github.com/cboltz)
