@@ -94,7 +94,7 @@ docker compose run --rm web bundle exec rake mastodon:webpush:generate_vapid_key
 ~~~
 
 Die resultierenden Zeilen in die `.env.production` einfügen – et voilà.
-Nun ist es an der Zeit, die die eben erfassten Konfigurationen in die Images zu übernehmen und das Ganze final zusammenzubauen. Hierzu dienen die folgenden Aufrufe:
+Nun ist es an der Zeit, die eben erfassten Konfigurationen in die Images zu übernehmen und das Ganze final zusammenzubauen. Hierzu dienen die folgenden Aufrufe:
 ~~~bash
 docker compose build
 docker compose run --rm web rails assets:precompile
@@ -202,7 +202,7 @@ docker compose run --user=root --rm web chown -R mastodon /opt/mastodon/public/
 
 ## Fazit
 Die Installation ist im Grunde genommen mehr Fleißarbeit als sonstwas.
-Es sie die vielen Kleinigkeiten links und rechts, die das Ganze aufblasen und zeitintensiv werden lassen (können): die automatische Erneuerung des Zertifikats, beispielsweise, die Backups, das Monitoring.
+Es sind die vielen Kleinigkeiten links und rechts, die das Ganze aufblasen und zeitintensiv werden lassen (können): die automatische Erneuerung des Zertifikats, beispielsweise, die Backups, das Monitoring.
 Vieles davon erledige ich inzwischen über [Ansible](https://www.ansible.com/)-Playbooks, aber auch die wollen erstellt und gepflegt werden – was den Aufwand im Grunde genommen nur um eine Ebene verlagert 😎
 
 Das Setup läuft stabil, nur selten erhalte ich in [Metatext](https://github.com/metabolist/metatext)[^2] überraschende *„too many requests“* Meldungen – welche dann aber auch direkt wieder verschwinden. Die RAM-Auslastung des Servers liegt konstant bei etwa 11%, wohingegen die CPUs sich eher langweilen.
