@@ -207,7 +207,7 @@ Vieles davon erledige ich inzwischen über [Ansible](https://www.ansible.com/)-P
 
 Das Setup läuft stabil, nur selten erhalte ich in [Metatext](https://github.com/metabolist/metatext)[^2] überraschende *„too many requests“* Meldungen – welche dann aber auch direkt wieder verschwinden. Die RAM-Auslastung des Servers liegt konstant bei etwa 11%, wohingegen die CPUs sich eher langweilen.
 
-Dem Update-Prozess widme ich dann demnächst noch einen eigenen kleinen Artikel.
+Dem Update-Prozess widme ich dann demnächst noch [einen eigenen kleinen Artikel](/mastodon-upgrade-durchfuehren/).
 Und vielleicht habe ich euch ja jetzt Lust drauf gemacht, es selbst mal zu versuchen – wir ihr seht, es ist keine Raketenwissenschaft.
 
 [^1]: *„Wichtig: Rumspielen nicht mit einer wertvollen Domain. Geht das Rumspielen schief, ist die Domain im Fediverse verbrannt.“* – Dank an [Klampfradler](https://konfigurationsmanufaktur.de/@Natureshadow@floss.social)
