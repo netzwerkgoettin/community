@@ -1,7 +1,7 @@
 ---
 title: "Mastodon: Upgrades durchführen"
 vgwort_public: "6fc0c0672e3e434a9da8a4881fb01b8d"
-date: 2023-03-29 07:01 +0200
+date: 2023-03-27 07:01 +0200
 categories:
   - "online"
 tags:
