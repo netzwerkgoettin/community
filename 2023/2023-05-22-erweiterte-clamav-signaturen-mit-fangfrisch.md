@@ -6,6 +6,7 @@ categories:
   - "online"
 tags:
   - "communications"
+  - "community"
 description: "Virenerkennungsrate von ClamAV unter Zuhilfenahme externer Signaturen verbessern"
 image: "/assets/img/community/2023/05/Blume2.jpg"
 hide_description: true
@@ -289,7 +290,7 @@ Früher war's eben ein `sendmail` – und **jaha! Ich mochte ihn!**
 Jetzt ist es eben ein `postfix`.
 Ganz früher war es gar nix, früher war es dann `spamassassin`, jetzt ist es `rspamd`.
 Früher war es `Cyrus IMAP`, jetzt halt `dovecot`.
-Werkzeuge ändern sich, die Aufgabenstellung jedoch im Kern jedoch über all die Jahre hinweg nicht.
+Werkzeuge ändern sich, die Aufgabenstellung im Kern allerdings über all die Jahre hinweg nicht.
 
 Ich sehe es kritisch, dass immer weniger Leute sich damit befassen.
 Das ist Wissen, das verloren geht, nicht weitergetragen werden kann... das ist ein Risiko.
