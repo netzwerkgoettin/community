@@ -1,11 +1,12 @@
 ---
 title: "Ein mount.cephfs-Issue"
-vgwort_public: ""
+vgwort_public: "c5df028f856a4fc3bba90e499f3bd52c"
 date: 2023-05-26 15:23 +0200
 categories:
   - "online"
 tags:
   - "storage"
+  - "cluster"
 description: "Warum mein CephFS sich nicht mounten ließ"
 image: "/assets/img/community/2023/05/Mohnblumen.jpg"
 hide_description: true
@@ -98,7 +99,8 @@ mount error: no mds server is up or the cluster is laggy
 
 Da war ich der Lösung näher, als mir bewusst war: er *versucht* es mit der neuen Syntax („trying“ zu Port 3300), fällt dann kommentarlos zurück auf die alte Syntax („switching“ zu Port 6789) und fällt dann wieder um.
 Beide Ports indes waren grundsätzlich erreichbar.
-Der MDS lief auf den Ports 6800 sowie 6801 – ich vergewisserte mich, dass auch diese erreichbar sind.
+Der MDS lief auf den Ports 6800 sowie 6801.
+Und weil im `dmesg` ja was bezüglich MDS gemeckert wurde (`libceph: mds0 (unknown sockaddr family 0) connect error`) vergewisserte ich mich, dass auch diese erreichbar sind.
 ~~~bash
 netcat ceph-alpha 6800
 ceph v2
