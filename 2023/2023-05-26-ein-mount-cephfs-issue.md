@@ -5,8 +5,9 @@ date: 2023-05-26 15:23 +0200
 categories:
   - "online"
 tags:
-  - "storage"
   - "cluster"
+  - "community"
+  - "storage"
 description: "Warum mein CephFS sich nicht mounten ließ"
 image: "/assets/img/community/2023/05/Mohnblumen.jpg"
 hide_description: true
