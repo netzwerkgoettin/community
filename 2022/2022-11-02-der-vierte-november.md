@@ -127,7 +127,7 @@ Insofern gilt es bei all euren Change Requests und Ideen, die euch spontan in de
 Aber ich bin halt kein Team.
 
 Am 4. November werde ich dann die (derzeit) finale Version der `#tabsvongesternnacht`-Webseite online bringen.
-Dort [und auch über Twitter](https://twitter.com/tabsvongestern8) werde ich euch den Link zur Teilnahme bereitstellen.
+Dort ~~und auch über Ex-Twitter~~ werde ich euch den Link zur Teilnahme bereitstellen.
 Ab 21:00 könnt ihr euch beliebig einwählen und euch anschauen, was ich Krudes für euch ausgeheckt hab.
 
 Ich bin schon gespannt, ihr auch?
