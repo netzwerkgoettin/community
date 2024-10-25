@@ -100,4 +100,4 @@ Und das war's dann auch schon 🙂
 
 > **Edit:** Ich betreibe die Instanz nun seit fast zwei Jahren, und für mich funktioniert das so ganz gut.
 > Den vorliegenden Artikel habe ich anhand der gerade veröffentlichten `v4.3.1` überarbeitet.
-> Allerdings achte ich inzwischen auch penibler darauf, alte Backups, alte Docker-Container und -Volumes regelmäßig zu trashen, denn das summiert sich schon alles ganz ordentlich.
+> Allerdings achte ich inzwischen auch penibler darauf, alte Backups, alte Docker-Container und -Volumes regelmäßig zu trashen, denn das summiert sich schon alles ganz ordentlich... 😇
