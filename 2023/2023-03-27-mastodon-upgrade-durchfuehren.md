@@ -1,13 +1,14 @@
 ---
 title: "Mastodon: Upgrades durchführen"
 vgwort_public: "6fc0c0672e3e434a9da8a4881fb01b8d"
-date: 2023-03-27 07:01 +0200
+date: "2023-03-27 07:01 +0200"
+last_modified_at: "2024-10-25 15:16 +0200"
 categories:
   - "online"
 tags:
   - "communications"
   - "community"
-description: ""
+description: "Upgrade-Prozess der Mastodon-Instanz konfigurationsmanufaktur.de"
 image: "/assets/img/community/2023/03/Holzmann.jpg"
 hide_description: true
 hide_image: true
@@ -33,25 +34,36 @@ Ich arbeite bei solchen Dingen üblicherweise in einem `screen`.
 screen -DRS mastodon_upgrade
 ```
 
-Ins Mastodon Directory wechseln und alle Container stoppen – [in meinem Setup](/eine-eigene-mastodon-instanz-in-docker/) liegen alle Files im `$HOME` des ausführenden Users.
+Der erste Schritt besteht darin, einen Dump der Datenbank zu erzeugen:
 ```bash
-cd $HOME/fediverse/mastodon
+cd $HOME/mastodon
+docker exec mastodon-db-1 \
+pg_dump -Fc -U postgres postgres \
+> postgres-$( date +%Y%m%d ).dump
+```
+
+Jetzt alle Container stoppen – [in meinem Setup](/eine-eigene-mastodon-instanz-in-docker/) liegen alle Files im `$HOME` des ausführenden Users.
+```bash
 docker compose down
 ```
 
-Zur Sicherheit ziehe ich mit eine Kopie der bisherigen funktionierenden Installation; den Cache lasse ich dabei außen vor.
+Zur Sicherheit ziehe ich mit eine Kopie der bisherigen funktionierenden Installation; den Cache lasse ich dabei jedoch außen vor.
 ```bash
-sudo rsync -azvpP \
---progress $HOME/fediverse/mastodon $HOME/fediverse/mastodon-$( date +%Y%m%d ) \
---exclude $HOME/fediverse/mastodon/public/system/cache/
+cd .. 
+rsync -azvpP --progress \
+--exclude mastodon/public/system/cache/ \
+--exclude mastodon/.git \
+mastodon mastodon-$( date +%Y%m%d )
 ```
 
-Dann bringe ich das Repository auf den neuesten Stand.
+Dann wechsle ich wieder in den Ordner und bringe das Repository auf den neuesten Stand.
 ```bash
+cd mastodon
 git fetch
 ```
 
-In meinem Fall weicht die `docker-compose.yml` vom GitHub-Default ab, da ich sie an meine Gegebenheiten anpassen musste; über `git status` lässt sich das einsehen. Deshalb werfe ich die auf den Stapel nicht eingecheckter Änderungen.
+In meinem Fall weicht die `docker-compose.yml` vom GitHub-Default ab, da ich sie an meine Gegebenheiten anpassen musste; über `git status` lässt sich das einsehen.
+Deshalb werfe ich die auf den Stapel nicht eingecheckter Änderungen.
 ```bash
 git stash
 ```
@@ -67,7 +79,10 @@ Jetzt muss ich meine vollgekritzelte `docker-compose.yml` wieder vom Stapel rett
 git stash pop
 ```
 
-Anschließend gleiche ich sie mit der des aktuellen Checkouts ab und übernehme eventuelle Änderungen entsprechend. Und dann erstelle ich das Docker-Image und führe eventuell anstehende Migrationen durch.
+Anschließend gleiche ich sie mit der des aktuellen Checkouts ab und übernehme eventuelle Änderungen entsprechend.
+Und dann erstelle ich das Docker-Image – und führe eventuell anstehende Migrationen durch.
+Letztere sind nicht immer nötig.
+Das Changelog des Projekts ist bei jedem Upgrade einen Blick wert!
 ```bash
 docker compose build
 docker compose run --rm web rails db:migrate
@@ -82,3 +97,7 @@ docker compose up -d --force-recreate
 **Welcome back, konfigurationsmanufaktur.de!**
 
 Und das war's dann auch schon 🙂
+
+> **Edit:** Ich betreibe die Instanz nun seit fast zwei Jahren, und für mich funktioniert das so ganz gut.
+> Den vorliegenden Artikel habe ich anhand der gerade veröffentlichten `v4.3.1` überarbeitet.
+> Allerdings achte ich inzwischen auch penibler darauf, alte Backups, alte Docker-Container und -Volumes regelmäßig zu trashen, denn das summiert sich schon alles ganz ordentlich.
