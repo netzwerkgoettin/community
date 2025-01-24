@@ -3,6 +3,7 @@ title: "Aral Pulse – Spaß mit der Zahlungsweise"
 vgwort_public: "23f1a816546b4722a4cd0489be43c43b"
 date: 2025-01-24 15:16:24 +0200
 categories:
+  - "community"
   - "online"
 tags:
   - "mobilitaet"
