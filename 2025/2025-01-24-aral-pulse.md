@@ -1,5 +1,5 @@
 ---
-title: "Aral Pulse – Spaß mit der Zahlungsweise"
+title: "Aral pulse – Spaß mit der Zahlungsweise"
 vgwort_public: "23f1a816546b4722a4cd0489be43c43b"
 date: 2025-01-24 15:16:24 +0200
 categories:
@@ -56,5 +56,9 @@ Ich installierte also die „Aral pulse“-App auf meinem Handy, verband mich mi
 
 Danach löschte ich die App wieder von meinem Handy, und wir stellten sicher, dass auch die „Aral pulse“-App auf ihrem Handy nun über alle benötigten Daten verfügte – was der Fall war, die Angaben werden nicht lokal auf dem Endgerät gespeichert.
 (Und zu ihrem Leidwesen entfernte ich dann auch wieder meine Karte aus ihrem Account - das fand sie eher bedauerlich 😂)
+
+> **Einschub am 27. Januar 2025:** Inzwischen habe ich mir selbst ebenfalls eine solche Karte angefordert; allerdings stellte der Wechsel zwischen Aral pulse und Banking-App **auf dem iPhone**, App-Version ebenfalls 3.18.0, überhaupt kein Problem dar!
+> Da verschwand der blaue Button aber auch nicht.
+> Desweiteren habe ich [auf Anraten](https://troet.cafe/@lued/113888937892604215) von [Luca](https://troet.cafe/@lued) tatsächlich eine entsprechende Mail an den Support gesendet – und bin gespannt, ob die jemand lesen wird 😬
 
 Da würden mich nun eure Erfahrungswerte interessieren – insbesondere, falls ihr vor dem gleichen Problem gestanden habt und dieser Artikel für euch hilfreich war! 😎
