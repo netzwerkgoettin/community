@@ -1,8 +1,7 @@
 ---
 title: "Kontakte in Nextcloud"
-vgwort_public: ""
-vgwort_private: ""
-date: 2025-03-03 16:20:31 +0200
+vgwort_public: "d71c000fb4524c39b2d294efd0a0989c"
+date: 2025-03-03 23:04 +0200
 categories:
   - "online"
 tags:
@@ -19,8 +18,7 @@ accent_image:
 
 Die aktuelle weltpolitische Lage gibt viel Anreiz zum Nachdenken.
 Und bedauerlicherweise sind die meisten dieser Gedanken eher weniger motivierend.
-Ich habe noch nie über Politik gebloggt – es gibt genügend Menschen da draußen, die das bedeutend besser können als ich.
-Deshalb werde ich daran auch jetzt nichts ändern.\\
+Ich habe noch nie über Politik gebloggt – es gibt genügend Menschen da draußen, die das bedeutend besser können als ich, und deshalb werde ich daran auch nichts ändern.\\
 Aber über technische Themen bloggen – **das** kann ich.
 
 * Replaced by the toc
@@ -30,13 +28,13 @@ Aber über technische Themen bloggen – **das** kann ich.
 Und was mir schon immer ein Anliegen war, ist die so-viel-wie-mögliche Unabhängigkeit von [„Big Tech“](https://de.wikipedia.org/wiki/Big_Tech), Clouds, [„Vendor Lock-Ins“](https://www.heise.de/tipps-tricks/Vendor-Lock-in-was-ist-das-6166269.html) und ähnlichem – **„Own Your Data!“** eben.
 Darüber habe ich hier nie groß geschrieben – warum eigentlich?
 Vielleicht, weil es für mich so *normal* war?
-Oder ich im Bekanntenkreis üblicherweise auf wenig Verständnis stieß – *„Warum so misstrauisch, so kompliziert?“*
+Oder weil ich im Bekanntenkreis üblicherweise auf wenig Verständnis stieß – *„Warum so misstrauisch, so kompliziert?“*
 
-Ja, es stimmt schon: auf diese Cloud-Dinge zu verzichten, macht die Dinge tatsächlich komplizierter – manche macht es unmöglich.
+Ja, es stimmt schon: auf diese Cloud-Dinge zu verzichten, kann Dinge tatsächlich komplizierter machen – manche macht es unmöglich.
 Es benötigt technische Expertise auf einem bestimmten Level, und häufig geht es mit einem signifikanten Verlust an Komfort einher.
-Für mich ist es den Preis jedoch immer schon wert gewesen.\\
+Für mich ist es den Preis jedoch schon immer wert gewesen.\\
 Was ich jetzt jedoch auffange ist, dass eine zunehmende Zahl an Menschen sich mit dieser Thematik auseinandersetzt.
-Und an diese Gruppe richte ich mich, indem ich in Zukunft mal ein bisschen mehr aus dem Nähkästchen plaudere, wie ich Dinge für mich gelöst habe: Kontakte, Kalender, Foto, Passwörter...
+Und an diese Gruppe richte ich mich, indem ich in Zukunft mal ein bisschen mehr aus dem Nähkästchen plaudere, wie ich Dinge für mich gelöst habe: Kontakte, Kalender, Fotos, Passwörter...
 Das wird – so meine Hoffnung – auch anderen helfen.
 
 Und idealerweise hilft es umgekehrt auch mir – denn an manchen Punkten komme ich selbst nicht recht weiter.
@@ -45,7 +43,7 @@ Und idealerweise hilft es umgekehrt auch mir – denn an manchen Punkten komme i
 Meine derzeitigen Voraussetzungen sind folgende:
 
 * ich bin seit über 20 Jahren Apple-Nutzerin, sowohl mit wechselnden Rechnern, als auch mit wechselnden iPhones
-* ich betreibe einen Root-Server bei [Netcup](https://www.netcup.com/de) mit Standort Nürnberg
+* ich betreibe einen Root-Server bei [Netcup](https://www.netcup.com/de) am Standort Nürnberg
 * auf diesem Root-Server betreibe ich unter anderem eine [Nextcloud](https://nextcloud.com/de/); und auch wenn ich mit der nicht ausnahmslos glücklich bin (Stichworte „PHP“ und „AI Integration“ und so) ist mir bislang kein kleineres Übel untergekommen, das alle benötigten Funktionalitäten zur Verfügung stellen würde
 
 # Verwaltung der Kontakte
@@ -55,7 +53,7 @@ Die ermöglicht es mir, per Webinterface meine Kontakte zu erfassen – ihre Nam
 
 # Einbindung der Nextcloud-Kontakte
 Charmant wird das Ganze allerdings erst, wenn ich es auch meinen übrigen Geräten als Quelle hinzufüge.
-Um das zu tun, benötige ich die CardDAV-Adresse, und die finde ich auf folgendem Weg heraus:
+Um das zu tun, benötige ich die CardDAV-Adresse, und die finde ich auf folgendem Weg:
 
 * das Webinterface von Nextcloud öffnen
 * *Contacts* auswählen
@@ -65,6 +63,10 @@ Um das zu tun, benötige ich die CardDAV-Adresse, und die finde ich auf folgende
 * diesen Link (er hat in etwa die Form `https://cloud.example.com/remote.php/dav/addressbooks/users/<USERNAME>/contacts/`) als *Server Address* einsetzen
 
 Über diese Adresse kann die Einrichtung nun erfolgen.
+
+![Contacts settings](/assets/img/community/2025/03/Contacts_Settings.jpg){:.lead width="100%" loading="lazy"}
+Screenshot „Contacts settings“
+{:.figcaption}
 
 ## Desktop
 Auf dem Desktop-Mac geht das über *System Settings &rarr; Internet Accounts &rarr; Add Account &rarr; Add Other Account &rarr; CardDAV Account*.
