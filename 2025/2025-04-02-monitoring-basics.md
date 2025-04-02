@@ -8,6 +8,10 @@ tags:
   - "bestpractices"
   - "community"
   - "monitoring"
+fediverse_comments:
+  host: konfigurationsmanufaktur.de
+  username: netzwerkgoettin
+  id: 114267642901896101
 description: "Grundlegende Gedanken zum Thema Monitoring, bevor es an die konkrete Umsetzung geht"
 image: "/assets/img/community/2025/04/Kaffeeblume.jpg"
 hide_description: true
