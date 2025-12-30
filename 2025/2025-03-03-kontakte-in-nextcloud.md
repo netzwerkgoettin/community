@@ -43,7 +43,7 @@ Und idealerweise hilft es umgekehrt auch mir – denn an manchen Punkten komme i
 Meine derzeitigen Voraussetzungen sind folgende:
 
 * ich bin seit über 20 Jahren Apple-Nutzerin, sowohl mit wechselnden Rechnern, als auch mit wechselnden iPhones
-* ich betreibe einen Root-Server bei [Netcup](https://www.netcup.com/de) am Standort Nürnberg
+* ich betreibe einen Root-Server bei [netcup](https://www.netcup.com/de/) am Standort Nürnberg
 * auf diesem Root-Server betreibe ich unter anderem eine [Nextcloud](https://nextcloud.com/de/); und auch wenn ich mit der nicht ausnahmslos glücklich bin (Stichworte „PHP“ und „AI Integration“ und so) ist mir bislang kein kleineres Übel untergekommen, das alle benötigten Funktionalitäten zur Verfügung stellen würde
 
 # Verwaltung der Kontakte

@@ -1,6 +1,7 @@
 ---
 title: "Erweiterte ClamAV-Signaturen mit fangfrisch"
 vgwort_public: "1d5c5c8c36194139850fd076dd4b676d"
+vgwort_server: "vg03"
 date: 2023-05-22 01:54 +0200
 categories:
   - "online"

@@ -1,6 +1,7 @@
 ---
 title: "Ein mount.cephfs-Issue"
 vgwort_public: "c5df028f856a4fc3bba90e499f3bd52c"
+vgwort_server: "vg03"
 date: 2023-05-26 15:23 +0200
 categories:
   - "online"

@@ -107,7 +107,7 @@ Vermutlich haben sie recht.
 **Ich nahm die Löschung der Domain zurück, entwarf ein Konzept und fand einen Sponsor.**
 
 ## Neustart mit Sponsor
-[netcup](https://www.netcup.de) stellt mir – in erster Linie aber euch, der Community – einen Root-Server zur Verfügung, auf dem ich dieses neue Konzept nun an den Start bringen werde.
+[netcup](https://www.netcup.com/de/) stellt mir – in erster Linie aber euch, der Community – einen Root-Server zur Verfügung, auf dem ich dieses neue Konzept nun an den Start bringen werde.
 Vieles ist schon passiert, vieles ist noch zu tun. 
 Aber wie ihr euch sicher vorstellen könnt – das ist nicht *„mal eben schnell“* umgesetzt.
 Nachdem die ersten Tests extrem vielversprechend verlaufen sind, ist der 4. November nun der erste „echte“ Testlauf.
