@@ -1,6 +1,7 @@
 ---
 title: "CO2 im Alltag"
 vgwort_public: "0833d7d27ade4f8fb87b175688e32926"
+vgwort_server: "vg05"
 date: 2020-02-10 14:27:13 +0200
 categories: 
   - "online"
